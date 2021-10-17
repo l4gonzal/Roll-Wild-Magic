@@ -98,6 +98,7 @@ function roll() {
   if(advantage === document.activeElement){
     if(reRoll > fstRoll){
       fstRoll = reRoll;
+      return "Advantage: " + String(fstRoll) + " reRoll: " + String(reRoll);
     }
   }
 
@@ -110,7 +111,7 @@ function roll() {
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>2</p>
+<p>1</p>
 <br></br>
 <p>Advantage</p>
 <label id="adv" class="switch">
