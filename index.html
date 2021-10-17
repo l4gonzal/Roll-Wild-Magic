@@ -95,12 +95,7 @@ function roll() {
   var advantage = document.getElementById("switchAdv").checked;
   var disadvantage = document.getElementById("switchDisAdv").checked;
   var reRoll = randomIntFromInterval(1,100);
-  if(advantage){
-    if(reRoll > fstRoll){
-      fstRoll = reRoll;
-      return "Advantage: " + String(fstRoll) + " reRoll: " + String(reRoll);
-    }
-  }
+ 
 
   return String(fstRoll) + " reRoll: " + String(reRoll);
 }
@@ -111,7 +106,7 @@ function roll() {
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>3</p>
+<p>1</p>
 <br></br>
 <p>Advantage</p>
 <label id="switchAdv" class="switch">
