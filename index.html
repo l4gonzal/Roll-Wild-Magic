@@ -47,7 +47,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #E4DEAF;
+  background-color: #E4DEAE;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -81,9 +81,26 @@ input:checked + .slider:before {
 </style>
 
 <script>
+var wildMax = 80;
+var nothingMax = 85;
+var conditionalMax = 95;
+var successMax = 100;
+
 function randomIntFromInterval(min, max) { // min and max included 
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
+
+function roll() {
+  var fstRoll = randomIntFromInterval(1,100);
+  var myElement = document.getElementById('myID');
+  if(myElement === document.activeElement){
+    if((var reRoll = randomIntFromInterval(1,100)) > fstRoll){
+      fstRoll = reRoll;
+    }
+  }
+  return fstRoll + ' ' + reRoll;
+}
+
 </script>
 
 </head>
