@@ -92,13 +92,14 @@ function randomIntFromInterval(min, max) { // min and max included
 
 function roll() {
   var fstRoll = randomIntFromInterval(1,100);
-  var myElement = document.getElementById('myID');
-  if(myElement === document.activeElement){
+  var advantage = document.getElementById('adv');
+  var disadvantage = document.getElementById('disadv');
+  if(advantage === document.activeElement){
     if((var reRoll = randomIntFromInterval(1,100)) > fstRoll){
       fstRoll = reRoll;
     }
   }
-  return fstRoll + ' ' + reRoll;
+  return fstRoll + " " + reRoll;
 }
 
 </script>
@@ -109,13 +110,13 @@ function roll() {
 <h1>Try your luck, sorcerer :3</h1>
 <br></br>
 <p>Advantage</p>
-<label class="switch">
+<label id="adv" class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
 
 <p>Disadvantage</p>
-<label class="switch">
+<label id="disadv" class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
