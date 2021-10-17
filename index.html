@@ -3,7 +3,8 @@
 <head>
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<input type="file" name="Hoku_wild_magic_chart.txt" id="file">
 <title>Roll Wild Magic</title>
 
 <style>
@@ -20,7 +21,7 @@ p {
 }
 button {
     font-family: 'IM Fell English SC', serif;
-    font-size: 50%;
+    font-size: 15px;
     color: #133A1B;
     border: 2px #133A1B;
     background-color: #E4DEAE;
@@ -97,24 +98,40 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 function roll() {
-  var fstRoll = randomIntFromInterval(1,100);
+  var result = randomIntFromInterval(1,100);
   var advantage = document.getElementById('switchAdv');
   var disadvantage = document.getElementById('switchDisadv');
   var modifier = document.getElementById('modifier').value;
   var reRoll = randomIntFromInterval(1,100);
   if(advantage.checked){
-    if(reRoll > fstRoll){
-      fstRoll = reRoll;
-      return "Advantage: " + String(fstRoll) + " reRoll: " + String(reRoll);
+    if(reRoll > result){
+      result = reRoll;
     }
   }
   if(disadvantage.checked){
-    if(reRoll < fstRoll){
-      fstRoll = reRoll;
-      return "Disadvantage: " + String(fstRoll) + " reRoll: " + String(reRoll);
+    if(reRoll < result){
+      result = reRoll;
     }
   }
-  return String(fstRoll) + " reRoll: " + String(reRoll) + " " + modifier;
+  result = result + modifier;
+  outcome(result);
+  return;
+}
+
+function outcome(roll){
+  document.getElementById('file').onchange = function(){
+
+  var file = this.files[0];
+
+  var reader = new FileReader();
+  reader.onload = function(progressEvent){
+    var lines = this.result.split('\n');
+    for(var line = 0; line < lines.length; line++){
+      console.log(lines[line]);
+    }
+  }
+  }
+  return roll;
 }
 
 </script>
