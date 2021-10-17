@@ -1,0 +1,100 @@
+1: You swap places with a specific greater demon :3
+2: Roll on this table for each of your turns for the next minute
+3: Roll again on this table twice
+4: For a short duration it begins raining frogs
+5: You and your familiar swap bodies for a duration
+6: A bag of misc weapons falls out of the sky and drops in front of you
+7: You combust into a ball of flame, damaging everybody but yourself
+8: Shards of ice explode out in an area centered on you
+9: You cast magic missile at the 5th level on your target, if there is no target it's random
+10: You cast scorching ray at the 2nd level on your target, otherwise random
+11: Your height changes 2in taller or shorter, flip a coin
+12: You and your familiar merge again
+13: You cast confusion on yourself
+14: You cast hold person on yourself
+15: Your wounds begin to heal and your body begins to regenerate
+16: Allies within sight of you begin to regenerate
+17: You begin to sneeze uncontrollably until somebody calms you down
+18: You grow a beautiful flower atop your head, it will remain until plucked
+19: You cast grease centered on yourself
+20: You cast entangle centered on yourself
+21: Your body slighty fades into the Ethereal Plane, half invisible
+22: Allies gain resistance to magic
+23: Your skin begin to glow, vibrantly
+24: You produce a faint aroma of lavender. Only remove curse can dispel this effect
+25: Random outfit swaps for everybody in sight
+26: Everybody suddenly needs to use the restroom
+27: For the remainder of the day every sentence has to end in nya~ for everybody
+28: One random ally has to uwu speak for the remainder of the day. Remove curse can lift this effect
+29: You teleport 60ft in a random direction
+30: You swap places with a random ally
+31: You are transported to the Astral Plane for a turn
+32: A random creature within sight, including you, is transported to the Nine Hells for a turn
+33: For a short duration, everybody's personality becomes the opposite
+34: For a short duration, the conversation will be soley focused on a random food, lettuce
+35: Two random creatures nearby have a rap battle
+36: Everyone thinks out loud for a short duration
+37: 4 flumphs appear within 60ft of you for a minute
+38: 4 confused badgers appear within 60ft of you for a minute
+39: You heal major injuries
+40: You and your allies heal minor injuries
+41: You turn into a potted plant for a duration. While a plant you have vulnerability to all damage. If you die you revert back.
+42: For a short duration, you perceive all creatures as farm animals
+43: For the next minute, you blink in random directions max 20ft away
+44: For the next minute you can move in any direction
+45: You cast levitate on yourself
+46: You cast feather fall on yourself
+47: The talking horse with a taped on horn appears ontop of somebody within 10ft of you, always HIRO if applicable
+48: The talking horse appears ontop of somebody within 10ft of you, always HIRO if applicable
+49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
+50: You cry uncontrollably
+51: You gain a spectral sheild that hovers around you for the next minute
+52: A large banana appears on your shoulder, making you unable to be knocked prone
+53: You are drunk for the day
+54: You are tripping balls for the day
+55: You summon a random fey from the feywilds
+56: You summon a random demon from the shadowfell
+57: You summon a random celestial from astral plane
+58: You summon a random immortal Subway employee
+59: You summon two random entities from 55 - 58
+60: You summon all entities from 55 - 58
+61: For the next minute, you must shout when you speak
+62: For the next minute, you must whisper when you speak
+63: You cast fog cloud centered on yourself
+64: You cast silence on yourself
+65: Three creatures nearest to you are struck by lightning
+66: All creatures within 60ft are knocked prone
+67: You are frightened by the nearest creature for a duration
+68: You are charmed by the nearest creature for a duration
+69: Your body is taken over by a greater demon for an unspecified duration :3, you remember all of it
+70: Every creature around you becomes invisible for a minute
+71: You become magnetic, you get stuck to other things
+72: You become electromagnetic, other things get stuck to you
+73: A random creature, inlcuding yourself, becomes poisoned for 3 hours
+74: A random creature, inlcuding yourself, suffers from two levels of exhuastion
+75: A bright light appears on your chest, any creature that stares at it becomes blinded for a minute
+76: You radiate a chilling mist in a 30ft radius, everybody within is incapacitated until they leave the mist
+77: You cast polymorph. You turn into a goat for a short duration
+78: You turn into a statue for a short duration
+79: Illusory butterflies and flower petals flutter in the air withith 10ft of you for the next minute
+80: Static electricity fills you for a minute, feather-light object cling to you
+81: Everybody sings what they say for a short duration
+82: All characters do a deadpool
+83: All characters are compelled to share non-harmful secrets
+84: You fall in love with the nearest inanimate object
+85: Every person within 15ft of you become your mirror image for a short duration
+86: Parkour!
+87: A random creature starts flying
+88: You summon 20lbs of misc fruit, and a durian, on Gary the Goose's location
+89: You blink
+90: You become an illusion for a short duration, you look normal but cannot be interacted with
+91: All creatures in sight genderswap for a short duration
+92: Your personality becomes aggressive and assertive for a short duration
+93: Your size increases or decreses by size category for a short duration, flip a coin
+94: All creatures within sight have their mental age revert to that of a child
+95: All creatures within sight have their mental age revert to that of a elder
+96: All characters anime monoluge for a short duration
+97: You are surrounded by faint, ethereal music for a short duration. Sounds like the court music, but has no effect
+98: You are surrounded by loud, obnoxious, and erratically off-tune flute noises for a short duration
+99: You are constantly distracted until you can watch the shrek series
+100: Regain all spent mana and regenerate mana over the next four hours
