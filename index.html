@@ -27,13 +27,17 @@ button {
 </style>
 
 <script>
+function randomIntFromInterval(min, max) { // min and max included 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
 </script>
 
 </head>
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<button id="btn-roll">Roll</button>
+<button id="btn-roll" onclick="document.getElementById('demo').innerHTML = randomIntFromInterval(1,100)">Roll</button>
+<p id="demo"></p>
 
 </body>
 </html>
