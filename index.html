@@ -45,7 +45,7 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #E4DEAE;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -57,17 +57,17 @@ button {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #E4DEAE;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #133A1B;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #133A1B;
 }
 
 input:checked + .slider:before {
@@ -88,14 +88,23 @@ function randomIntFromInterval(min, max) { // min and max included
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-
+<br></br>
+<p>Advantage</p>
 <label class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
 
-<button id="btn-roll" onclick="document.getElementById('demo').innerHTML = randomIntFromInterval(1,100)">Roll</button>
-<p id="demo"></p>
+<p>Disadvantage</p>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>
+
+<br></br>
+<button id="btn-roll" onclick="document.getElementById('result').innerHTML = randomIntFromInterval(1,100)">Roll</button>
+<br></br>
+<p id="result"></p>
 
 </body>
 </html>
