@@ -92,10 +92,10 @@ function randomIntFromInterval(min, max) { // min and max included
 
 function roll() {
   var fstRoll = randomIntFromInterval(1,100);
-  var advantage = document.getElementById('adv');
-  var disadvantage = document.getElementById('disadv');
+  var advantage = document.getElementById("switchAdv").checked;
+  var disadvantage = document.getElementById("switchDisAdv").checked;
   var reRoll = randomIntFromInterval(1,100);
-  if(advantage === document.activeElement){
+  if(advantage){
     if(reRoll > fstRoll){
       fstRoll = reRoll;
       return "Advantage: " + String(fstRoll) + " reRoll: " + String(reRoll);
@@ -111,16 +111,16 @@ function roll() {
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>1</p>
+<p>3</p>
 <br></br>
 <p>Advantage</p>
-<label id="adv" class="switch">
+<label id="switchAdv" class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
 
 <p>Disadvantage</p>
-<label id="disadv" class="switch">
+<label id="switchDisadv" class="switch">
   <input type="checkbox">
   <span class="slider"></span>
 </label>
