@@ -2,11 +2,11 @@ html {
     background: #B7BF96
 }
 button {
-    color: navy;
-    border: 2px inset navy;
-    padding: 2Q 40vw;
+    color: #133A1B;
+    border: 2px inset #133A1B;
+    padding: 20vw;
     background-color: #E4DEAE;
-    position: center;
+    position: fixed;
     width:50%;
     margin-left:25%;
     margin-right:25%;
