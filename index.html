@@ -19,12 +19,9 @@ button {
     font-size: 5%;
     color: #133A1B;
     border: 2px #133A1B;
-    padding : 5vw 10vw;
     background-color: #E4DEAE;
-    display: inline;
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
+    padding : 5vw 10vw;
+   
 }
 
 .switch {
@@ -121,7 +118,7 @@ function roll() {
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>2</p>
+<p>1</p>
 <br></br>
 <p>Advantage</p>
 <label for="switchAdv" class="switch">
@@ -137,11 +134,15 @@ function roll() {
 
 <br></br>
 
+<p>Modifier</p>
+<input type="number" id="modifier" value="0" min="-999" max="999">
 
 <br></br>
 
 <button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
+
 <br></br>
+
 <p id="result"></p>
 
 </body>
