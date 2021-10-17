@@ -1,1 +1,7 @@
-
+button {
+    color: navy;
+    border: 2px inset navy;
+    padding: 2Q 40vw;
+    background-color: hsla(217, 100%, 40%, 20%);
+    position: static;
+}
