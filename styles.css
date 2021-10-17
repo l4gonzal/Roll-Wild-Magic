@@ -5,6 +5,10 @@ button {
     color: navy;
     border: 2px inset navy;
     padding: 2Q 40vw;
-    background-color: hsla(217, 100%, 40%, 20%);
+    background-color: #E4DEAE;
     position: center;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+
 }
