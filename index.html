@@ -100,7 +100,7 @@ function roll() {
   var result = randomIntFromInterval(1,100);
   var advantage = document.getElementById('switchAdv');
   var disadvantage = document.getElementById('switchDisadv');
-  var modifier = document.getElementById('modifier').value;
+  var modifier = parseInt(document.getElementById('modifier').value);
   var reRoll = randomIntFromInterval(1,100);
   if(advantage.checked){
     if(reRoll > result){
