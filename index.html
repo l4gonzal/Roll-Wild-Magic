@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,12 +23,18 @@ button {
     font-family: 'IM Fell English SC', serif;
     font-size: 50px;
     color: #133A1B;
-    border: 2px #133A1B;
     background-color: #E4DEAE;
-    padding : 5vw 10vw;
-    display: inline;
-    width:50%;
+    padding : 20px;
+    display: inline-block;
+    width: 250px;
 }
+.container {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  gap: 30px;
+}
+
 
 .switch {
   position: relative;
@@ -83,6 +90,14 @@ input:checked + .slider:before {
 input[type=number]::-webkit-inner-spin-button {
     opacity: 1
 }
+input[type=number]{
+  background-color: #E4DEAE;
+  border-color: #133A1B;
+  width: 60px;
+  height: 20px;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 20px;
+  }
 
 </style>
 
@@ -113,60 +128,82 @@ function roll() {
     }
   }
   result = result + modifier;
+  var output;
   if(result <= wildMax){
-    result = "You rolled a " + result + ". Go wild!";
+    output = "You rolled a " + result + ". Go wild!";
+    document.getElementById('effect').innerHTML = readChart('Hoku_wild_magic_chart.txt',result);
   }
   else if(result <= nothingMax){
-    result = "You rolled a " + result + ". Poof! Nothing happens..";
+    output = "You rolled a " + result + ". Poof! Nothing happens..";
+    document.getElementById('effect').innerHTML = "";
   }
   else if(result <= conditionalMax){
-    result = "You rolled a " + result + ". I mean, you mostly did it.";
+    output = "You rolled a " + result + ". I mean, you mostly did it.";
+    document.getElementById('effect').innerHTML = readChart('Hoku_magic_success_chart.txt',result);
   }
   else{
-    result = "You rolled a " + result + ". Congrats, you did a magic!";
+    output = "You rolled a " + result + ". Congrats, you did a magic!";
+    document.getElementById('effect').innerHTML = "";
   }
-  return result;
+  return output;
 }
 
-function readChart(){
-  var fs = require("fs");
-  var text = fs.readFileSync("./Hoku_wild_magic_chart.txt").toString('utf-8');
-  var textByLine = text.split("\n")
-  console.log(textByLine);
+function readChart(file,roll) {
+  let output = "Effect:\n";
+
+  console.log(roll);
+  
+  jQuery.get(file, function (data) {
+    var lines = data.split("\n");
+    for(let i=0; i < lines.length; i++){
+      if(roll == parseInt(lines[i])){
+        console.log(output + lines[i]);
+      }
+    }
+  });
+  return output;
 }
+
 
 </script>
 
 </head>
 <body>
-
 <h1>Try your luck, sorcerer :3</h1>
-<p>1</p>
-
-<button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
-
 <br></br>
-
+<div class="container">
+<div class="box">
 <p>Advantage</p>
 <label for="switchAdv" class="switch">
   <input type="checkbox" id="switchAdv">
   <span class="slider"></span>
 </label>
-
+</div>
+<div class="box">
 <p>Disadvantage</p>
 <label for="switchDisadv" class="switch">
   <input type="checkbox" id="switchDisadv">
   <span class="slider"></span>
 </label>
-
+</div>
 <br></br>
-
+<div class="box">
 <p>Modifier</p>
 <input type="number" id="modifier" value="0" min="-999" max="999">
-
+</div>
+</div>
 <br></br>
-
+<br></br>
+<div class="container">
+<button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
+</div>
+<br></br>
+<br></br>
+<div class="container">
 <p id="result"></p>
-
+</div>
+<div class="container">
+  <p id="effect"></p>
+  </div>
 </body>
 </html>
