@@ -136,7 +136,11 @@ function outcome(roll){
 
 <h1>Try your luck, sorcerer :3</h1>
 <p>1</p>
+
+<button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
+
 <br></br>
+
 <p>Advantage</p>
 <label for="switchAdv" class="switch">
   <input type="checkbox" id="switchAdv">
@@ -153,10 +157,6 @@ function outcome(roll){
 
 <p>Modifier</p>
 <input type="number" id="modifier" value="0" min="-999" max="999">
-
-<br></br>
-
-<button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
 
 <br></br>
 
