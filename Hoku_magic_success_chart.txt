@@ -1,0 +1,8 @@
+1-80: Wild magic
+81-90: Nothing
+91-95: Conditional Success
+96-100: Success
+
+Conditional Success Effects:
+You cast your spell in the form of a throwable ball.
+Your cast your spell with a delay.
