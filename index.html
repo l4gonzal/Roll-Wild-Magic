@@ -120,6 +120,7 @@ function readChart(){
   var fs = require("fs");
   var text = fs.readFileSync("./Hoku_wild_magic_chart.txt").toString('utf-8');
   var textByLine = text.split("\n")
+  console.log(textByLine);
 }
 
 </script>
@@ -128,7 +129,7 @@ function readChart(){
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>1</p>
+<p>3</p>
 
 <button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
 
