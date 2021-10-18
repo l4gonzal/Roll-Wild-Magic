@@ -113,20 +113,7 @@ function roll() {
     }
   }
   result = result + modifier;
-  outcome(result);
   return result;
-}
-
-function outcome(roll){
-  const fs = require('fs') 
-
-  fs.readFile('Hoku_wild_magic_chart.txt', 'utf-8', (err, data) => { 
-
-    if (err) throw err; 
-
-    console.log(data); 
-  })
-  return roll;
 }
 
 </script>
@@ -135,7 +122,7 @@ function outcome(roll){
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>1</p>
+<p>2</p>
 
 <button id="btn-roll" onclick="document.getElementById('result').innerHTML = roll()">Roll</button>
 
