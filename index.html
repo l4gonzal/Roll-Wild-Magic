@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<input type="file" name="Hoku_wild_magic_chart.txt" id="file">
 <title>Roll Wild Magic</title>
 
 <style>
@@ -21,7 +20,7 @@ p {
 }
 button {
     font-family: 'IM Fell English SC', serif;
-    font-size: 15px;
+    font-size: 50px;
     color: #133A1B;
     border: 2px #133A1B;
     background-color: #E4DEAE;
@@ -115,22 +114,18 @@ function roll() {
   }
   result = result + modifier;
   outcome(result);
-  return;
+  return result;
 }
 
 function outcome(roll){
-  document.getElementById('file').onchange = function(){
+  const fs = require('fs') 
 
-  var file = this.files[0];
+  fs.readFile('Hoku_wild_magic_chart.txt', 'utf-8', (err, data) => { 
 
-  var reader = new FileReader();
-  reader.onload = function(progressEvent){
-    var lines = this.result.split('\n');
-    for(var line = 0; line < lines.length; line++){
-      console.log(lines[line]);
-    }
-  }
-  }
+    if (err) throw err; 
+
+    console.log(data); 
+  })
   return roll;
 }
 
@@ -140,7 +135,7 @@ function outcome(roll){
 <body>
 
 <h1>Try your luck, sorcerer :3</h1>
-<p>2</p>
+<p>1</p>
 <br></br>
 <p>Advantage</p>
 <label for="switchAdv" class="switch">
