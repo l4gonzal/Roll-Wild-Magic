@@ -8,7 +8,7 @@
 8: Shards of ice explode out in an area centered on you
 9: You cast magic missile at the 5th level on your target, if there is no target it's random
 10: You cast scorching ray at the 2nd level on your target, otherwise random
-11: Your height changes 2in taller or shorter, flip a coin
+11: You appear to be on fire(illusory)
 12: You and your familiar merge again
 13: You cast confusion on yourself
 14: You cast hold person on yourself
@@ -47,7 +47,7 @@
 47: The talking horse with a taped on horn appears ontop of somebody within 10ft of you, always HIRO if applicable
 48: The talking horse appears ontop of somebody within 10ft of you, always HIRO if applicable
 49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
-50: You cry uncontrollably
+50: Any one food item nearest to you combusts
 51: You gain a spectral sheild that hovers around you for the next minute
 52: A large banana appears on your shoulder, making you unable to be knocked prone
 53: You are drunk for the day
@@ -76,7 +76,7 @@
 76: You radiate a chilling mist in a 30ft radius, everybody within is incapacitated until they leave the mist
 77: You cast polymorph. You turn into a goat for a short duration
 78: You turn into a statue for a short duration
-79: Illusory butterflies and flower petals flutter in the air withith 10ft of you for the next minute
+79: You cannot lift yourself from the next seat you take for several hours or until someone lifts you up
 80: Static electricity fills you for a minute, feather-light object cling to you
 81: Everybody sings what they say for a short duration
 82: All characters do a deadpool

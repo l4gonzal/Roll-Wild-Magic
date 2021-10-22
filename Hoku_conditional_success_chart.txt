@@ -1,0 +1,8 @@
+1: You cast your spell in the form of a throwable ball.
+2: Your cast your spell with a delay.
+3: Caster cannot hear for 1 minute.
+4: A small raincloud, appears above the caster for a minute.
+5: Caster cannot see for 30 seconds.
+6: Caster pivots 180 degrees, right before they cast
+7: A non-venomous snake appears on the caster's head for a minute
+8: The caster is blast backwards by the spell's recoil

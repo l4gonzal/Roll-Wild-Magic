@@ -102,21 +102,21 @@ input[type=number]{
 </style>
 
 <script>
-var wildMax = 80;
-var nothingMax = 90;
-var conditionalMax = 95;
-var successMax = 100;
+var wildMax = 8;
+var nothingMax = 15;
+var conditionalMax = 18;
+var successMax = 20;
 
 function randomIntFromInterval(min, max) { // min and max included 
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 function roll() {
-  var result = randomIntFromInterval(1,100);
+  var result = randomIntFromInterval(1,20);
   var advantage = document.getElementById('switchAdv');
   var disadvantage = document.getElementById('switchDisadv');
   var modifier = parseInt(document.getElementById('modifier').value);
-  var reRoll = randomIntFromInterval(1,100);
+  var reRoll = randomIntFromInterval(1,20);
   if(advantage.checked){
     if(reRoll > result){
       result = reRoll;
@@ -131,7 +131,7 @@ function roll() {
   var output;
   if(result <= wildMax){
     output = "You rolled a " + result + ". Go wild!";
-    document.getElementById('effect').innerHTML = readChart('Hoku_wild_magic_chart.txt',result);
+    document.getElementById('effect').innerHTML = readChart('Hoku_wild_magic_chart.txt',false);
   }
   else if(result <= nothingMax){
     output = "You rolled a " + result + ". Poof! Nothing happens..";
@@ -139,7 +139,7 @@ function roll() {
   }
   else if(result <= conditionalMax){
     output = "You rolled a " + result + ". I mean, you mostly did it.";
-    document.getElementById('effect').innerHTML = readChart('Hoku_magic_success_chart.txt',result);
+    document.getElementById('effect').innerHTML = readChart('Hoku_conditional_success_chart.txt',true);
   }
   else{
     output = "You rolled a " + result + ". Congrats, you did a magic!";
@@ -148,18 +148,30 @@ function roll() {
   return output;
 }
 
-function readChart(file,roll) {
-  let output = "Effect:\n";
-
-  console.log(roll);
-  
+function readChart(file,success) {
+  let output = "Check console (Ctrl+Shift+J)"
   jQuery.get(file, function (data) {
-    var lines = data.split("\n");
-    for(let i=0; i < lines.length; i++){
-      if(roll == parseInt(lines[i])){
-        console.log(output + lines[i]);
+    let lines = data.split("\n");
+
+    if(success){
+      let effectNum = lines.length;
+      let roll = randomIntFromInterval(1,effectNum);
+      for(let i=0; i < lines.length; i++){
+        if(roll == parseInt(lines[i])){
+          console.log("Additional magic effect:\n" + lines[i]);
+        }
       }
     }
+    else{
+      let roll = randomIntFromInterval(1,100);
+      for(let i=0; i < lines.length; i++){
+        if(roll == parseInt(lines[i])){
+          console.log("Wild spell:\n" + lines[i]);
+        }
+      }
+    }
+
+    
   });
   return output;
 }
