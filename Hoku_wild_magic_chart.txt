@@ -47,7 +47,7 @@
 47: The talking horse with a taped on horn appears ontop of somebody within 10ft of you, always HIRO if applicable
 48: The talking horse appears ontop of somebody within 10ft of you, always HIRO if applicable
 49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
-50: Any one food item nearest to you combusts
+50: Caster pulls an apple out of thin air
 51: You gain a spectral sheild that hovers around you for the next minute
 52: A large banana appears on your shoulder, making you unable to be knocked prone
 53: You are drunk for the day
@@ -79,7 +79,7 @@
 79: You cannot lift yourself from the next seat you take for several hours or until someone lifts you up
 80: Static electricity fills you for a minute, feather-light object cling to you
 81: Everybody sings what they say for a short duration
-82: All characters do a deadpool
+82: You swap bodies with the closest person to you for a minute
 83: All characters are compelled to share non-harmful secrets
 84: You fall in love with the nearest inanimate object
 85: Every person within 15ft of you become your mirror image for a short duration
