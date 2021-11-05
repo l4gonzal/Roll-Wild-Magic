@@ -20,7 +20,7 @@
 20: You cast entangle centered on yourself
 21: Your body slighty fades into the Ethereal Plane, half invisible
 22: Allies gain resistance to magic
-23: Your skin begin to glow, vibrantly
+23: Your skin begins to glow, vibrantly
 24: You produce a faint aroma of lavender. Only remove curse can dispel this effect
 25: Random outfit swaps for everybody in sight
 26: Everybody suddenly needs to use the restroom
