@@ -22,18 +22,18 @@
 22: Allies gain resistance to magic
 23: Your skin begins to glow, vibrantly
 24: You produce a faint aroma of lavender. Only remove curse can dispel this effect
-25: Random outfit swaps for everybody in sight
-26: Everybody suddenly needs to use the restroom
-27: For the remainder of the day every sentence has to end in nya~ for everybody
+25: *Random outfit swaps for everybody in sight
+26: *Everybody suddenly needs to use the restroom
+27: *For the remainder of the day every sentence has to end in nya~ for everybody
 28: One random ally has to uwu speak for the remainder of the day. Remove curse can lift this effect
 29: You teleport 60ft in a random direction
 30: You swap places with a random ally
 31: You are transported to the Astral Plane for 5min
-32: A random creature within sight, including you, is transported to the Nine Hells for a turn
-33: For a short duration, everybody's personality becomes the opposite
-34: For a short duration, the conversation will be soley focused on a random food, lettuce
-35: Two random creatures nearby have a rap battle
-36: Everyone thinks out loud for a short duration
+32: *A random creature within sight, including you, is transported to the Nine Hells for a turn
+33: *For a short duration, everybody's personality becomes the opposite
+34: *For a short duration, the conversation will be soley focused on a random food, lettuce
+35: *Two random creatures nearby have a rap battle
+36: *Everyone thinks out loud for a short duration
 37: 4 flumphs appear within 60ft of you for a minute
 38: 4 confused badgers appear within 60ft of you for a minute
 39: You heal major injuries
@@ -49,7 +49,7 @@
 49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
 50: Caster pulls an apple out of thin air
 51: You gain a spectral sheild that hovers around you for the next minute
-52: A large banana appears on your shoulder, making you unable to be knocked prone
+52: A banana appears on your shoulder, making you unable to be knocked prone
 53: You are drunk for the day
 54: You are tripping balls for the day
 55: You summon a random fey from the feywilds
@@ -78,7 +78,7 @@
 78: You turn into a statue for a short duration
 79: You cannot lift yourself from the next seat you take for several hours or until someone lifts you up
 80: Static electricity fills you for a minute, feather-light object cling to you
-81: Everybody sings what they say for a short duration
+81: *Everybody sings what they say for a short duration
 82: You swap bodies with the closest person to you for a minute
 83: All characters are compelled to share non-harmful secrets
 84: You fall in love with the nearest inanimate object
@@ -88,7 +88,7 @@
 88: You summon 20lbs of misc fruit, and a durian, on Gary the Goose's location
 89: You blink
 90: You become an illusion for a short duration, you look normal but cannot be interacted with
-91: All creatures in sight genderswap for a short duration
+91: *All creatures in sight genderswap for a short duration
 92: Your personality becomes aggressive and assertive for a short duration
 93: Your size increases or decreses by size category for a short duration, flip a coin
 94: All creatures within sight have their mental age revert to that of a child
