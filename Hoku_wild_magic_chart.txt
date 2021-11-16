@@ -44,8 +44,8 @@
 44: For the next minute you can move in any direction
 45: You cast levitate on yourself
 46: You cast feather fall on yourself
-47: The talking horse with a taped on horn appears ontop of somebody within 10ft of you, always HIRO if applicable
-48: The talking horse appears ontop of somebody within 10ft of you, always HIRO if applicable
+47: The talking horse with a taped on horn appears ontop of HIRO
+48: The talking horse appears ontop of HIRO
 49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
 50: Caster pulls an apple out of thin air
 51: You gain a spectral sheild that hovers around you for the next minute
