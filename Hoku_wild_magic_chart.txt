@@ -49,7 +49,7 @@
 49: You can't speak for the next minute, if you do pink bubbles float out of your mouth
 50: Caster pulls an apple out of thin air
 51: You gain a spectral sheild that hovers around you for the next minute
-52: A banana appears on your shoulder, making you unable to be knocked prone
+52: You copy the motions of the nearest person next to you for 10min
 53: You are drunk for the day
 54: You are tripping balls for the day
 55: You summon a random fey from the feywilds
