@@ -11,7 +11,7 @@
 11: You appear to be on fire(illusory)
 12: You and your familiar merge again
 13: You cast confusion on yourself
-14: You cast hold person on yourself
+14: Percival suddenly craves chicken dinos and will not stop craving them until eaten
 15: Your wounds begin to heal and your body begins to regenerate
 16: Allies within sight of you begin to regenerate
 17: You begin to sneeze uncontrollably until somebody calms you down
