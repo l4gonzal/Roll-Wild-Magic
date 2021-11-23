@@ -30,7 +30,7 @@
 30: You swap places with a random ally
 31: You are transported to the Astral Plane for 5min
 32: *A random creature within sight, including you, is transported to the Nine Hells for a turn
-33: *For a short duration, everybody's personality becomes the opposite
+33: For the day, everybody's personality becomes the opposite
 34: *For a short duration, the conversation will be soley focused on a random food, lettuce
 35: *Two random creatures nearby have a rap battle
 36: *Everyone thinks out loud for a short duration
